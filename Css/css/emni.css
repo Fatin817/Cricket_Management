@@ -1,0 +1,39 @@
+/* Default styles */
+body {
+    background-color: #333; /* Dark background color */
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #fff;
+    margin: 0;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    /* Adjust the font size and line height for smaller screens */
+    body {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  
+    /* Adjust the height of the header image */
+    .img {
+      height: 200px;
+    }
+  
+    /* Adjust the form input fields and buttons for smaller screens */
+    .form-control {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+    
+    /* Adjust the form submit button color */
+    .submit {
+      background-color: blue;
+      color: #fff;
+    }
+  }
+  
